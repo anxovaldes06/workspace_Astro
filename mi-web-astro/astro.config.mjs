@@ -4,6 +4,15 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   vite: {
-    cacheDir: './.vite-cache'
+    cacheDir: './.vite-cache',
+    server: {
+      strictPort: true,
+      allowedHosts: ['.trycloudflare.com']
+    }
+  },
+
+  server: {
+    host: true,
+    port: 4321
   }
 });
