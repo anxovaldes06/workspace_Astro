@@ -1,0 +1,35 @@
+---
+import { ClientRouter } from "astro:transitions";
+import Nav from "../components/Nav.astro";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Document</title>
+		<ClientRouter transition:animate="fade" />
+	</head>
+	<body>
+		<header>
+			<Nav />
+		</header>
+		<slot />
+	</body>
+</html>
+
+<style>
+	body {
+		font-family: sans-serif;
+		margin: 0;
+		padding: 0;
+	}
+
+
+
+	header {
+		padding: 10px;
+		text-align: center;
+	}
+</style>

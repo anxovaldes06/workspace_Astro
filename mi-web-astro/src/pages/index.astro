@@ -1,0 +1,27 @@
+---
+import Button from "../components/Button.astro";
+import Layout from "../layouts/Layout.astro";
+
+const nombre = "Anxo";
+const favoritos = ["Beber", "Dormir", "Comer"];
+const valor = 20;
+---
+
+<Layout>
+  <h1>Mi primera página de astro</h1>
+  <p>Mi nombre es {nombre}</p>
+  <ul>
+    Cosas que me gustan:{favoritos.map((fav) => <li>{fav}</li>)}
+  </ul>
+  <p>Tengo {valor} años</p>
+  <Button title="Tócame" />
+</Layout>
+
+<style>
+  h1{
+    text-align: center;
+    text-decoration: underline;
+  }
+</style>
+
+
