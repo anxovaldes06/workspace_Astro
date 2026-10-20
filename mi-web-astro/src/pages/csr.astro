@@ -1,0 +1,26 @@
+---
+import  Layout  from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <h1>Lista de productos usando CSR</h1>
+    <p>Fecha y Hora : <span id="fechahora"></span></p>
+    <ul id="lista"></ul>
+</Layout>
+
+<script>
+    function cargarDatos() {
+        const productos = ["falda "," pantalón", "calcetines"];
+        const lista = document.getElementById("lista");
+        productos.forEach((p) => {
+            const li = document.createElement("li");
+            lista?.appendChild(li);
+            li.textContent = p;
+        });
+        const fechahora = document.getElementById("fechahora");
+        if (fechahora) {
+            fechahora.textContent = new Date().toLocaleString("es-ES");
+        }
+    }
+    document.addEventListener("astro:page-load", cargarDatos);
+</script>

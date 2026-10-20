@@ -1,55 +1,55 @@
 {
-  "hash": "556aa45b",
-  "configHash": "47fa9118",
-  "lockfileHash": "40889db5",
-  "browserHash": "e61e5b32",
+  "hash": "dbd5c47c",
+  "configHash": "f3d765af",
+  "lockfileHash": "c5e44fb7",
+  "browserHash": "c3195df7",
   "optimized": {
     "astro > aria-query": {
       "src": "../../node_modules/aria-query/lib/index.js",
       "file": "astro_n_aria-query.js",
-      "fileHash": "ebc55b52",
+      "fileHash": "09236051",
       "needsInterop": true
     },
     "astro > axobject-query": {
       "src": "../../node_modules/axobject-query/lib/index.js",
       "file": "astro_n_axobject-query.js",
-      "fileHash": "763931b9",
+      "fileHash": "79a12c5a",
       "needsInterop": true
     },
     "astro > html-escaper": {
       "src": "../../node_modules/html-escaper/esm/index.js",
       "file": "astro_n_html-escaper.js",
-      "fileHash": "aae67726",
+      "fileHash": "9eb1b325",
       "needsInterop": false
     },
     "astro/runtime/client/dev-toolbar/entrypoint.js": {
       "src": "../../node_modules/astro/dist/runtime/client/dev-toolbar/entrypoint.js",
       "file": "astro_runtime_client_dev-toolbar_entrypoint__js.js",
-      "fileHash": "910017d4",
+      "fileHash": "a0e629f4",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-events.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-events.js",
       "file": "astro_virtual-modules_transitions-events__js.js",
-      "fileHash": "3e1cd7a3",
+      "fileHash": "f15dbb5b",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-router.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-router.js",
       "file": "astro_virtual-modules_transitions-router__js.js",
-      "fileHash": "b19f5386",
+      "fileHash": "a3a68fae",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-swap-functions.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-swap-functions.js",
       "file": "astro_virtual-modules_transitions-swap-functions__js.js",
-      "fileHash": "48b240b7",
+      "fileHash": "96c2dab2",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-types.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-types.js",
       "file": "astro_virtual-modules_transitions-types__js.js",
-      "fileHash": "a2fe5d42",
+      "fileHash": "fcf11874",
       "needsInterop": false
     }
   },
