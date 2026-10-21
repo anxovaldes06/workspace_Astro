@@ -1,6 +1,12 @@
 ---
 import { ClientRouter } from "astro:transitions";
 import Nav from "../components/Nav.astro";
+
+interface Props {
+	title?: string;
+}
+
+const { title = "Document" } = Astro.props;
 ---
 
 <!doctype html>
@@ -8,7 +14,7 @@ import Nav from "../components/Nav.astro";
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Document</title>
+		<title>{title}</title>
 		<ClientRouter transition:animate="fade" />
 	</head>
 	<body>
