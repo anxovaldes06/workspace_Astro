@@ -1,61 +1,11 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import BaseLayout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Contador vanilla con TypeScript">
-	<main>
-		<h1>Contador vanilla</h1>
-		<div class="counter">
-			<button id="decrement" type="button" aria-label="Restar uno">−</button>
-			<output id="counter-value" aria-live="polite">0</output>
-			<button id="increment" type="button" aria-label="Sumar uno">+</button>
-		</div>
-		<button id="reset" type="button">Reiniciar</button>
-	</main>
-</Layout>
+<BaseLayout>
+    <h1>Contador usando vanilla js/ts</h1>
+    <button id="btn">Pulsame</button>
+    <p id="cont">0</p>
 
-<script>
-	import Contador from "../scripts/contador";
-
-	function initializeCounter(): void {
-		const output = document.querySelector<HTMLOutputElement>("#counter-value");
-		const decrementButton = document.querySelector<HTMLButtonElement>("#decrement");
-		const incrementButton = document.querySelector<HTMLButtonElement>("#increment");
-		const resetButton = document.querySelector<HTMLButtonElement>("#reset");
-
-		if (!output || !decrementButton || !incrementButton || !resetButton) return;
-
-		new Contador(output, decrementButton, incrementButton, resetButton);
-	}
-
-	document.addEventListener("astro:page-load", initializeCounter);
-</script>
-
-<style>
-	main {
-		max-width: 32rem;
-		margin: 3rem auto;
-		padding: 0 1rem;
-		text-align: center;
-	}
-
-	.counter {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 1rem;
-		margin: 2rem 0 1rem;
-	}
-
-	button {
-		padding: 0.5rem 1rem;
-		font: inherit;
-		cursor: pointer;
-	}
-
-	#counter-value {
-		min-width: 3ch;
-		font-size: 2rem;
-		font-weight: 700;
-	}
-</style>
+    <script src="/public/scripts/contador.ts" defer></script>
+</BaseLayout>

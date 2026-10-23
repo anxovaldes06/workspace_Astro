@@ -15,15 +15,30 @@ const { titulo, descripcion, imagen } = Astro.props;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+    gap: 12px;
 }
 
 .card img{
-    width: 100%;
+    width: 90px;
+    height: 90px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .card h2{
     color: #2563eb;
-    margin: 10px 0;
+    margin: 0;
+}
+
+.card p{
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 0.75rem;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
 }
 </style>
