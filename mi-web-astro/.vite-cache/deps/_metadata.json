@@ -1,91 +1,91 @@
 {
-  "hash": "b8f33e3e",
-  "configHash": "b575199c",
-  "lockfileHash": "7db01fde",
-  "browserHash": "6b9135fb",
+  "hash": "496be685",
+  "configHash": "e21b8b9e",
+  "lockfileHash": "9fc8c112",
+  "browserHash": "6ea63484",
   "optimized": {
     "@astrojs/react/client.js": {
       "src": "../../node_modules/@astrojs/react/dist/client.js",
       "file": "@astrojs_react_client__js.js",
-      "fileHash": "1e2280ec",
+      "fileHash": "b1184feb",
       "needsInterop": false
     },
     "astro > aria-query": {
       "src": "../../node_modules/aria-query/lib/index.js",
       "file": "astro_n_aria-query.js",
-      "fileHash": "b9108e14",
+      "fileHash": "4472d51f",
       "needsInterop": true
     },
     "astro > axobject-query": {
       "src": "../../node_modules/axobject-query/lib/index.js",
       "file": "astro_n_axobject-query.js",
-      "fileHash": "7c3feffa",
+      "fileHash": "1c4951da",
       "needsInterop": true
     },
     "astro > html-escaper": {
       "src": "../../node_modules/html-escaper/esm/index.js",
       "file": "astro_n_html-escaper.js",
-      "fileHash": "331d557a",
+      "fileHash": "84badcd1",
       "needsInterop": false
     },
     "astro/runtime/client/dev-toolbar/entrypoint.js": {
       "src": "../../node_modules/astro/dist/runtime/client/dev-toolbar/entrypoint.js",
       "file": "astro_runtime_client_dev-toolbar_entrypoint__js.js",
-      "fileHash": "073bcdfb",
+      "fileHash": "e5655590",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-events.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-events.js",
       "file": "astro_virtual-modules_transitions-events__js.js",
-      "fileHash": "8315999f",
+      "fileHash": "b2a34819",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-router.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-router.js",
       "file": "astro_virtual-modules_transitions-router__js.js",
-      "fileHash": "02d2edd0",
+      "fileHash": "f8eaaa70",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-swap-functions.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-swap-functions.js",
       "file": "astro_virtual-modules_transitions-swap-functions__js.js",
-      "fileHash": "3dd44bf1",
+      "fileHash": "0a89b233",
       "needsInterop": false
     },
     "astro/virtual-modules/transitions-types.js": {
       "src": "../../node_modules/astro/dist/virtual-modules/transitions-types.js",
       "file": "astro_virtual-modules_transitions-types__js.js",
-      "fileHash": "d2a16752",
+      "fileHash": "ae5089ca",
       "needsInterop": false
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "90983761",
+      "fileHash": "b1df4fc5",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "42990f51",
+      "fileHash": "9566d8a9",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "6b23be5e",
+      "fileHash": "00241436",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "8615b781",
+      "fileHash": "e502844e",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "c512ebf7",
+      "fileHash": "877737fc",
       "needsInterop": true
     }
   },

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Cueva de cristales pixel art</title>
+  <desc id="desc">Cueva subterránea con cristales luminosos, estalactitas y una poza azul.</desc>
+  <rect width="960" height="600" fill="#152a35"/>
+  <path d="M0 0h960v205l-83 70-96-90-82 90-101-118-91 118-110-103-98 112-111-91-88 75z" fill="#28434b"/>
+  <path d="m0 0 55 0-22 123-24 66-9-18zm184 0h50l-19 100-24 57-14-66zm241 0h48l-18 125-26 56-14-92zm250 0h50l-24 100-16 55-16-66zm198 0h62v173l-31 30-15-92z" fill="#1d3741"/>
+  <path d="M0 412 95 330l93 55 95-98 97 89 105-105 92 94 104-107 89 91 100-92 90 75v268H0z" fill="#354c49"/>
+  <path d="M0 484h960v116H0z" fill="#263c3d"/>
+  <path d="M270 600c16-63 76-100 174-103 123-4 205 38 246 103z" fill="#267b91"/>
+  <path d="M360 600c22-37 56-57 101-60 63-3 105 17 131 60z" fill="#46a9b2"/>
+  <g fill="#76e0d2">
+    <path d="m143 417 33-108 28 108z"/><path d="m176 417 34-147 31 147z"/>
+    <path d="m699 417 29-99 28 99z"/><path d="m735 417 35-139 31 139z"/>
+    <path d="m835 439 24-79 24 79z"/>
+  </g>
+  <g fill="#80c8eb">
+    <path d="m154 409 18-63 15 63z"/><path d="m712 409 16-57 15 57z"/><path d="m749 409 19-71 17 71z"/>
+  </g>
+  <g fill="#9de9dc" opacity=".9">
+    <circle cx="195" cy="258" r="5"/><circle cx="326" cy="199" r="4"/><circle cx="591" cy="250" r="5"/>
+    <circle cx="795" cy="214" r="4"/><circle cx="511" cy="358" r="4"/><circle cx="90" cy="298" r="3"/>
+  </g>
+  <path d="M0 462h960" stroke="#58705e" stroke-width="12"/>
+  <g fill="#4b6861">
+    <rect x="68" y="448" width="88" height="26"/><rect x="223" y="442" width="69" height="32"/>
+    <rect x="654" y="446" width="91" height="28"/><rect x="816" y="438" width="82" height="36"/>
+  </g>
+</svg>

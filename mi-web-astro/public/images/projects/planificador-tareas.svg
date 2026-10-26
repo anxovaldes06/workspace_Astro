@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Lista de tareas</title>
+  <desc id="desc">Tarjeta de planificador con tareas marcadas y una planta decorativa.</desc>
+  <rect width="960" height="600" fill="#e7f2e8"/>
+  <circle cx="811" cy="108" r="124" fill="#d1e7d4"/>
+  <rect x="130" y="72" width="680" height="456" rx="34" fill="#fff" stroke="#c9ddcd" stroke-width="4"/>
+  <rect x="130" y="72" width="680" height="92" rx="34" fill="#23613d"/>
+  <path d="M130 130h680v34H130z" fill="#23613d"/>
+  <text x="184" y="132" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="700">Mis tareas de hoy</text>
+  <text x="184" y="219" fill="#71917a" font-family="Arial,sans-serif" font-size="20" font-weight="700">LUNES · 24 JUNIO</text>
+  <g font-family="Arial,sans-serif" font-size="26" fill="#294833">
+    <text x="251" y="292">Preparar el proyecto</text>
+    <text x="251" y="374">Revisar pendientes</text>
+    <text x="251" y="456">Tomar un descanso</text>
+  </g>
+  <g fill="none" stroke="#61a575" stroke-width="5">
+    <circle cx="205" cy="282" r="19"/><circle cx="205" cy="364" r="19"/><circle cx="205" cy="446" r="19"/>
+  </g>
+  <path d="m195 282 7 7 14-16m-21 91 7 7 14-16" fill="none" stroke="#61a575" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="M704 528c0-45 16-78 45-103m-45 103c-3-33-18-54-42-67m42 40c9-25 27-39 52-43" fill="none" stroke="#64a575" stroke-linecap="round" stroke-width="10"/>
+  <path d="M747 425c0-25 18-42 44-42-1 25-16 43-44 42Zm-42 3c-2-23-17-38-42-38 2 23 17 38 42 38Zm43 29c4-22 21-34 44-31-5 22-21 34-44 31Z" fill="#8bbc8c"/>
+</svg>

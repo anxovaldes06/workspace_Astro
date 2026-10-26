@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Banderas del mundo</title>
+  <desc id="desc">Globo terráqueo y banderas de varios colores.</desc>
+  <rect width="960" height="600" fill="#e8f3ee"/>
+  <circle cx="477" cy="312" r="190" fill="#d3e9dc"/>
+  <circle cx="477" cy="312" r="150" fill="#65a9aa"/>
+  <path d="M354 248c33-46 75-72 119-76l23 33-30 27 11 34-39 20-16 54-43-5-23-35-33-8Zm188-29 31 14 45-8 30 34-25 30-42 3-13 40-34-12-8-36-31-23 15-29Zm-105 137 43 7 31 32-18 43-42 29-39-17-6-42 22-22Z" fill="#a5d5a6"/>
+  <g fill="none" stroke="#c4e4dd" stroke-width="5">
+    <ellipse cx="477" cy="312" rx="70" ry="150"/>
+    <path d="M334 312h286M367 236h220M367 388h220"/>
+  </g>
+  <g transform="translate(142 127)">
+    <path d="M0 0v95" stroke="#63836e" stroke-width="7"/><path d="M7 7h128l-24 28 24 28H7z" fill="#f4c857"/><path d="M7 7h128l-24 28H7z" fill="#518b62"/>
+  </g>
+  <g transform="translate(711 153)">
+    <path d="M0 0v94" stroke="#63836e" stroke-width="7"/><path d="M7 7h130l-23 28 23 28H7z" fill="#fff" stroke="#dce5db" stroke-width="2"/><path d="M7 7h44v56H7z" fill="#5c83c7"/><path d="M51 7h63v18H51zm0 38h63v18H51z" fill="#de6b61"/>
+  </g>
+  <g transform="translate(188 390)">
+    <path d="M0 0v73" stroke="#63836e" stroke-width="7"/><path d="M7 7h114L99 31l22 25H7z" fill="#fff"/><path d="M7 7h36v49H7zm73 0h41v49H80z" fill="#df625c"/>
+  </g>
+  <g transform="translate(677 396)">
+    <path d="M0 0v72" stroke="#63836e" stroke-width="7"/><path d="M7 7h117L103 31l21 25H7z" fill="#f4f0de"/><path d="M7 7h38v49H7zm76 0h41v49H83z" fill="#68a778"/>
+  </g>
+</svg>

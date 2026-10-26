@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+export const prerender = true;
+
+const proyectos = await getCollection("proyectos");
+---
+
+<Layout title="Proyectos">
+	<main>
+		<h1>LISTA DE PROYECTOS</h1>
+		<ul>
+			{proyectos.map((proyecto) => (
+				<li>
+					<a href={`/proyectos/${proyecto.id}`}>{proyecto.data.titulo}</a>
+				</li>
+			))}
+		</ul>
+	</main>
+</Layout>

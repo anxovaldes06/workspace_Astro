@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Calendario semanal</title>
+  <desc id="desc">Calendario con bloques de tiempo para organizar la semana.</desc>
+  <rect width="960" height="600" fill="#eef4e8"/>
+  <rect x="102" y="80" width="756" height="440" rx="28" fill="#fff" stroke="#d8e4d3" stroke-width="4"/>
+  <text x="150" y="140" fill="#23583a" font-family="Arial,sans-serif" font-size="34" font-weight="700">Tu semana, a tu ritmo</text>
+  <g stroke="#e3ebe1" stroke-width="2">
+    <path d="M145 195h670M145 270h670M145 345h670M145 420h670"/>
+    <path d="M257 177v287m112-287v287m112-287v287m112-287v287m112-287v287"/>
+  </g>
+  <g fill="#6c8873" font-family="Arial,sans-serif" font-size="17" font-weight="700">
+    <text x="275" y="185">LUN</text><text x="385" y="185">MAR</text><text x="500" y="185">MIÉ</text>
+    <text x="610" y="185">JUE</text><text x="722" y="185">VIE</text>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="15" font-weight="700">
+    <rect x="272" y="210" width="80" height="48" rx="10" fill="#dcefe0"/><text x="286" y="239" fill="#28613c">Estudio</text>
+    <rect x="382" y="285" width="82" height="48" rx="10" fill="#f8e8bf"/><text x="394" y="314" fill="#805c1a">Pausa</text>
+    <rect x="496" y="210" width="86" height="48" rx="10" fill="#dcefe0"/><text x="509" y="239" fill="#28613c">Proyecto</text>
+    <rect x="608" y="360" width="84" height="48" rx="10" fill="#dce6fa"/><text x="621" y="389" fill="#405f91">Repaso</text>
+    <rect x="718" y="285" width="82" height="48" rx="10" fill="#dcefe0"/><text x="731" y="314" fill="#28613c">Lectura</text>
+  </g>
+  <circle cx="774" cy="126" r="18" fill="#a7cc9e"/>
+  <path d="M770 127h9m-4-4v9" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+</svg>
