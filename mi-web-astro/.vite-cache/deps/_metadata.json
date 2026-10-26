@@ -1,91 +1,67 @@
 {
-  "hash": "7f64854e",
-  "configHash": "e21b8b9e",
-  "lockfileHash": "4a0460ed",
-  "browserHash": "29760328",
+  "hash": "84b60ba5",
+  "configHash": "c77a6476",
+  "lockfileHash": "69f68047",
+  "browserHash": "1559b8bf",
   "optimized": {
     "@astrojs/react/client.js": {
       "src": "../../node_modules/@astrojs/react/dist/client.js",
       "file": "@astrojs_react_client__js.js",
-      "fileHash": "dfdc6257",
+      "fileHash": "fe6aa941",
       "needsInterop": false
     },
     "astro > aria-query": {
       "src": "../../node_modules/aria-query/lib/index.js",
       "file": "astro_n_aria-query.js",
-      "fileHash": "36c38469",
+      "fileHash": "9ec41a8c",
       "needsInterop": true
     },
     "astro > axobject-query": {
       "src": "../../node_modules/axobject-query/lib/index.js",
       "file": "astro_n_axobject-query.js",
-      "fileHash": "38eea727",
+      "fileHash": "255a47f0",
       "needsInterop": true
     },
     "astro > html-escaper": {
       "src": "../../node_modules/html-escaper/esm/index.js",
       "file": "astro_n_html-escaper.js",
-      "fileHash": "a992da1f",
+      "fileHash": "0d363650",
       "needsInterop": false
     },
     "astro/runtime/client/dev-toolbar/entrypoint.js": {
       "src": "../../node_modules/astro/dist/runtime/client/dev-toolbar/entrypoint.js",
       "file": "astro_runtime_client_dev-toolbar_entrypoint__js.js",
-      "fileHash": "f4a2cfc1",
-      "needsInterop": false
-    },
-    "astro/virtual-modules/transitions-events.js": {
-      "src": "../../node_modules/astro/dist/virtual-modules/transitions-events.js",
-      "file": "astro_virtual-modules_transitions-events__js.js",
-      "fileHash": "5b3e9cfd",
-      "needsInterop": false
-    },
-    "astro/virtual-modules/transitions-router.js": {
-      "src": "../../node_modules/astro/dist/virtual-modules/transitions-router.js",
-      "file": "astro_virtual-modules_transitions-router__js.js",
-      "fileHash": "dcd3957a",
-      "needsInterop": false
-    },
-    "astro/virtual-modules/transitions-swap-functions.js": {
-      "src": "../../node_modules/astro/dist/virtual-modules/transitions-swap-functions.js",
-      "file": "astro_virtual-modules_transitions-swap-functions__js.js",
-      "fileHash": "bf85da49",
-      "needsInterop": false
-    },
-    "astro/virtual-modules/transitions-types.js": {
-      "src": "../../node_modules/astro/dist/virtual-modules/transitions-types.js",
-      "file": "astro_virtual-modules_transitions-types__js.js",
-      "fileHash": "7c2ef137",
+      "fileHash": "28e993b3",
       "needsInterop": false
     },
     "react-dom": {
       "src": "../../node_modules/react-dom/index.js",
       "file": "react-dom.js",
-      "fileHash": "8c7671e5",
+      "fileHash": "ee037bd7",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "0a2530ab",
+      "fileHash": "d1f59389",
       "needsInterop": true
     },
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "c04e7417",
+      "fileHash": "ba3eb06f",
       "needsInterop": true
     },
     "react/jsx-dev-runtime": {
       "src": "../../node_modules/react/jsx-dev-runtime.js",
       "file": "react_jsx-dev-runtime.js",
-      "fileHash": "2cb47a2f",
+      "fileHash": "97077949",
       "needsInterop": true
     },
     "react/jsx-runtime": {
       "src": "../../node_modules/react/jsx-runtime.js",
       "file": "react_jsx-runtime.js",
-      "fileHash": "0830f849",
+      "fileHash": "d05fea60",
       "needsInterop": true
     }
   },
@@ -98,12 +74,8 @@
       "file": "audit-CA0bnRvn.js",
       "isDynamicEntry": true
     },
-    "client-U6yYIspi": {
-      "file": "client-U6yYIspi.js",
-      "isDynamicEntry": false
-    },
-    "events--VP3AhLl": {
-      "file": "events--VP3AhLl.js",
+    "client-DZDRzyHT": {
+      "file": "client-DZDRzyHT.js",
       "isDynamicEntry": false
     },
     "highlight-CpHMw7-c": {
@@ -114,12 +86,12 @@
       "file": "icons-DcM8cGs_.js",
       "isDynamicEntry": false
     },
-    "react-DHa8f0kV": {
-      "file": "react-DHa8f0kV.js",
+    "react-Co3QiS-J": {
+      "file": "react-Co3QiS-J.js",
       "isDynamicEntry": false
     },
-    "react-dom-BzkfhjYW": {
-      "file": "react-dom-BzkfhjYW.js",
+    "react-dom-CP0yHNAv": {
+      "file": "react-dom-CP0yHNAv.js",
       "isDynamicEntry": false
     },
     "rolldown-runtime-C3I60J0A": {
@@ -129,10 +101,6 @@
     "settings-CI954KWk": {
       "file": "settings-CI954KWk.js",
       "isDynamicEntry": true
-    },
-    "swap-functions-B9KGB-sT": {
-      "file": "swap-functions-B9KGB-sT.js",
-      "isDynamicEntry": false
     },
     "toolbar-C8Jb8PvT": {
       "file": "toolbar-C8Jb8PvT.js",

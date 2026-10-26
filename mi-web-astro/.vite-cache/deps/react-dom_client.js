@@ -1,2 +1,2 @@
-import { t as require_client } from "./client-U6yYIspi.js";
+import { t as require_client } from "./client-DZDRzyHT.js";
 export default require_client();

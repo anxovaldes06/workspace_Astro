@@ -1,5 +1,5 @@
-import { t as require_react } from "./react-DHa8f0kV.js";
-import { t as require_client } from "./client-U6yYIspi.js";
+import { t as require_react } from "./react-Co3QiS-J.js";
+import { t as require_client } from "./client-DZDRzyHT.js";
 //#region node_modules/@astrojs/react/dist/static-html.js
 var import_client = require_client();
 var import_react = require_react();
