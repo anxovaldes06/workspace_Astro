@@ -1,0 +1,23 @@
+---
+export const prerender = false;
+
+import Layout from "../layouts/Layout.astro";
+
+const res = await fetch(
+  "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
+);
+
+if (!res.ok) {
+  throw new Error("Falló la API de precios de Bitcoin: " + res.status);
+}
+
+const datos = await res.json();
+
+const precioBitcoin = datos.bitcoin.usd;
+const precioBitcoinFormateado = precioBitcoin.toFixed(2);
+---
+
+<Layout>
+    <h1>Precio de Bitcoin</h1>
+    <p>1 BTC = {precioBitcoinFormateado} USD</p>
+</Layout>

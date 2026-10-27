@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import tecnologias from "../content/tecnologias.json";
+---
+
+<Layout>
+  <main>
+    <h1>Lista de todas las tecnologías</h1>
+
+    <ul>
+      {tecnologias.map((tecnologia) => (
+        <li>
+          <strong>ID:</strong> {tecnologia.id}<br />
+          <strong>Nombre:</strong> {tecnologia.nombre}<br />
+          <strong>Nivel:</strong> {tecnologia.nivel}
+        </li>
+      ))}
+    </ul>
+
+  </main>
+</Layout>

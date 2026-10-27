@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const res = await fetch(
+  "https://rickandmortyapi.com/api/character"
+);
+
+const datos = await res.json();
+const personajes = datos.results;
+---
+
+<Layout>
+  <div class="contenedor">
+    {personajes.map(personaje => (
+      <div class="personaje">
+        <h2>{personaje.name}</h2>
+        <img src={personaje.image} alt={personaje.name} />
+        <p>{personaje.species}</p>
+      </div>
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .personaje {
+    text-align: center;
+  }
+</style>

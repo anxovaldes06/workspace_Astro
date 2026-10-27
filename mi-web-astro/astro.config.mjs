@@ -14,7 +14,11 @@ import netlify from '@astrojs/netlify';
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  adapter: netlify(),
+  adapter: netlify({
+    devFeatures: {
+      edgeFunctions: false
+    }
+  }),
 
   vite: {
     cacheDir: './.vite-cache',

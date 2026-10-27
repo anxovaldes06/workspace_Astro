@@ -1,0 +1,12 @@
+---
+import  Layout  from "../layouts/Layout.astro";
+const res = await fetch(new URL("/api/hora" , Astro.url))
+const datos = await res.json()
+---
+
+<Layout>
+    <h1>FECHA OBTENIDA EN API PROPIA</h1>
+    <p> La fecha es : {datos.lafecha}</p>
+    <p> La hora es : {datos.lahora}</p>
+</Layout>
+
