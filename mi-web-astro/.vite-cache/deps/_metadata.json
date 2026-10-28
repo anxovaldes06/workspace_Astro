@@ -2,12 +2,18 @@
   "hash": "aa950c8e",
   "configHash": "6b29f461",
   "lockfileHash": "69f68047",
-  "browserHash": "1d33a96e",
+  "browserHash": "526f1ca1",
   "optimized": {
     "@astrojs/react/client.js": {
       "src": "../../node_modules/@astrojs/react/dist/client.js",
       "file": "@astrojs_react_client__js.js",
       "fileHash": "9670271c",
+      "needsInterop": false
+    },
+    "astro/actions/runtime/entrypoints/client.js": {
+      "src": "../../node_modules/astro/dist/actions/runtime/entrypoints/client.js",
+      "file": "astro_actions_runtime_entrypoints_client__js.js",
+      "fileHash": "88e79723",
       "needsInterop": false
     },
     "astro > aria-query": {

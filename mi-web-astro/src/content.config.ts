@@ -27,4 +27,5 @@ const proyectos = defineCollection({
     }),
 });
 
+
 export const collections = { blog, proyectos };
